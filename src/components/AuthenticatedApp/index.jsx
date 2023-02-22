@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Landing } from '../Landing';
 import { ChatRoom } from '../ChatRoom';
 
+
 function AuthenticatedApp() {
     return (
         <BrowserRouter>

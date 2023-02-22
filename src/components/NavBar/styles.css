@@ -1,0 +1,41 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+
+    padding: 7px 16px;
+
+    width: 100%;
+    margin: 0 auto;
+
+
+    position: fixed;
+    top: 0;
+
+    background-color: rgba(28, 28, 30, .5);
+    backdrop-filter: blur(10px);
+    
+}
+
+.navbar-container > h2, .navbar-container > p{
+    margin: 0;
+}
+
+.back-container{
+    display: flex;
+    align-items: center;
+
+    color: #0b84fe;
+}
+
+
+.back-container,
+.ham-menu{
+    width: 25%;
+    text-align: end;
+}
+
+.room-title{
+    width: 50%;
+    text-align: center;
+    justify-self: center;
+}

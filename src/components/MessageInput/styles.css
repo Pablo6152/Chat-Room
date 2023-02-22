@@ -1,18 +1,26 @@
 .message-input-container {
     display: flex;
     gap: 4px;
+    
 }
 
 .message-input {
     padding: 12px 8px;
+    border-radius: 14px;
     flex: 1;
     background: var(--color-gray);
-    border-radius: var(--border-radius);
 }
 
 .send-message {
-    padding: 12px 14px;
-    background: var(--color-blue);
+    padding: 6px 15px;
+    padding-right: 0;
+
+    background: var(--color-background);
+    color: #0b84fe;
     border-radius: var(--border-radius);
     cursor: pointer;
+}
+
+.send-icon{
+    font-size: 2rem;
 }

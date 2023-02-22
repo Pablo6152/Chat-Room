@@ -50,12 +50,11 @@ button {
 
 .container {
   height: 100%;
-  max-width: 600px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+
 }

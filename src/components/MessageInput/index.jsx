@@ -29,7 +29,9 @@ function MessageInput({ roomId }) {
                 minLength={1}
             />
             <button type="submit" disabled={value < 1} className="send-message">
-                Send
+                <span className="material-icons send-icon">
+                    send
+                </span>
             </button>
         </form>
     );
